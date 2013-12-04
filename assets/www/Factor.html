@@ -1,0 +1,185 @@
+<style type="text/css">
+.black {
+	color: #000;
+}
+.test {
+	color: #FFF;
+}
+body,td,th {
+	color: #8C8C8C;
+}
+body {
+	background-color: rgba(255,255,255,1);
+}
+</style>
+<body bgcolor="#000000" text="#FFFFFF">
+<h1 style="text-align: center; color: #000;"><span style="color: rgb(0, 0, 0); font-size: 16px; white-space: pre; background-color: black(255, 255, 255); "> </span><br></h1><p><br clear="all"><br clear="all">
+
+<style type="text/css">
+
+</p><p><!--
+input, select{
+	font-family: MS Sans Serif;
+	font-size: 8pt;
+}
+</p><p>fieldset {
+	padding: 10px;
+  width: 350px;
+}
+</p><p>legend {
+	margin-bottom: 10px;
+	padding-right: 5px;
+}
+</p><p>#bar0 {
+	font-family: MS Sans Serif;
+	font-size: 8pt;
+	float: left;
+	display: none;
+	border: 1px outset;
+	margin-left: 10px;
+}
+</p><p>#bar1 {
+	padding: 2px;
+	padding-left: 5px;
+	width: 100px;
+	background-color: white;
+	color: blue;
+}
+</p><p>#bar2 {
+	padding: 2px;
+	padding-left: 5px;
+	position: absolute;
+	width: 0px;
+	overflow: hidden;
+	background-color: white;
+	color: white;
+}
+</p><p>#bar3 {
+	float: left;
+	margin-left: 10px;
+	font-size: 7pt;
+}
+</p><p>
+</p><p>-->
+
+</p><p></style>
+
+</p><p><script type="text/javascript">
+
+function trail(t){
+var n=t.value
+while (true) if (n.substring(0,1)=="0") n=n.substring(1, n.length); else break;
+if (n=="") n=0;
+t.value=n;
+}
+var f;
+var d;
+var number;
+var num;
+var a;
+
+function complete(){
+  if (f.length==0) return number+" is a prime number.";
+  var text="Not prime. "+number+" = ";
+  var x=new Array();
+  x[0]=f[0]
+  var y=new Array();
+  y[0]=1;
+  for (var i=1; i<f.length; i++) {
+    if (f[i]==x[x.length-1]) y[y.length-1]++;
+    else {
+      x[x.length]=f[i];
+      y[y.length]=1;
+    }
+  }
+    if (num==x[x.length-1]) y[y.length-1]++;
+    else {
+      x[x.length]=num;
+      y[y.length]=1;
+      }
+
+    if (y[0]==1) text+=x[0];
+    else text+=x[0]+"<sup>"+y[0]+"</sup>";
+
+  for (var i=1; i<x.length; i++){
+    if (y[i]==1) text+=" x "+x[i];
+    else text+=" x "+x[i]+"<sup>"+y[i]+"</sup>";
+  }
+  return text;
+}
+
+function work(){
+if (num%d==0) {
+  num=num/d;
+  f[f.length]=d;
+  document.getElementById("output").innerHTML=complete();
+  }
+else {if (d==2) d++; else d+=2;}
+if (d*d>num) {
+  document.getElementById("output").innerHTML=complete();
+  document.getElementById("v0").innerHTML="100";
+  document.getElementById("bar2").style.width=100;
+	a=setTimeout("document.getElementById('bar0').style.display='none';document.getElementById('bar3').style.display='inline';", 1000);
+	}
+else if (((d-1)/2)%501==0) {
+  a=setTimeout("work()", 1);
+  document.getElementById("v0").innerHTML=Math.round((d*100)/Math.sqrt(num));
+  document.getElementById("v1").innerHTML=Math.round((d*100)/Math.sqrt(num));
+  document.getElementById("bar2").style.width=(d*100)/Math.sqrt(num)
+  document.getElementById("bar0").style.display="block";
+  document.getElementById("bar3").style.display="none";
+  }
+else work();
+}
+
+function factorise(n){
+  clearTimeout(a);
+  f=new Array();
+  d=2;
+  num=n;
+  number=n;
+  if (n==1) document.getElementById("output").innerHTML="1 is not a prime number even though it has no factors."
+  else if (n==2) document.getElementById("output").innerHTML="2 is the only even prime number.";
+  else if (n>2 && parseInt(n)==n) {
+    document.getElementById("output").innerHTML="No factors of "+number+" found yet...";
+    work();
+  }
+  else document.getElementById("output").innerHTML="Invalid entry.";
+}
+// End -->
+</script>
+
+
+</p><p>
+</p><p class="black">
+
+</p><p>
+</p><p>
+</p><p></p><div align="center">
+<form onsubmit="factorise(number.value);return false;">
+<fieldset>
+	<legend>Factoring Calculator</legend>
+<div style="float:left;">
+	<input value="100" type="number" name="number" onkeypress="var a=window.event.keyCode;if (a&lt;48 || a&gt;57) return false;" onblur="trail(this)" maxlength="15" style="width: 120px;"> <input type="submit" value="Factorise">
+</div><br><br>
+<div id="bar0">
+	<div id="bar2"><div style="width: 120px;">Thinking... [<span id="v0">0</span>%]</div></div>
+	<div id="bar1">Thinking... [<span id="v1">0</span>%]</div>
+</div>
+<div style="clear: left;">
+	<sup> </sup><span id="output">Enter a natural number to be factorised.</span>
+</div>
+</fieldset>
+</form>
+</div>
+
+<br clear="all">
+<script type="text/javascript"><!--
+google_ad_client = "pub-1272175791351169";
+/* Factoring Calculator */
+google_ad_slot = "0018458988";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+

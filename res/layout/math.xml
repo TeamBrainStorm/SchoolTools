@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFe5e5e5"
+    android:gravity="center"
+    tools:context=".Math"
+     >
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lb_convert"
+        android:text="Coverter"
+        android:paddingLeft="20dp"
+        android:textColor="#FF777777"
+        tools:ignore="HardcodedText" />
+
+    
+    <Button
+        android:id="@+id/frical"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/convert"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lb_fraction"
+        android:text="Fraction\nCalculator"
+        android:paddingLeft="20dp"
+        android:textColor="#FF777777"
+        tools:ignore="HardcodedText" />
+
+    
+    <Button
+        android:id="@+id/scical"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/frical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lb_scical"
+        android:text="Scientific\nCalculator"
+        android:paddingLeft="20dp"
+        android:textColor="#FF777777"
+        tools:ignore="HardcodedText" />
+    
+    
+</RelativeLayout>

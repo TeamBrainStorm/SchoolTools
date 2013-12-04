@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#FFe5e5e5" android:id="@+id/rightside">
+
+	<Button android:id="@+id/Ga" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ga"
+		android:layout_marginTop="102dip" android:layout_marginLeft="120dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Al" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Al"
+		android:layout_marginTop="62dip" android:layout_marginLeft="120dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Sn" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Sn"
+		android:layout_marginTop="142dip" android:layout_marginLeft="160dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Bi" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Bi"
+		android:layout_marginTop="182dip" android:layout_marginLeft="200dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/In" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="In"
+		android:layout_marginTop="142dip" android:layout_marginLeft="120dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Pb" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Pb"
+		android:layout_marginTop="182dip" android:layout_marginLeft="160dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Uut" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Uut"
+		android:layout_marginTop="222dip" android:layout_marginLeft="120dip"
+		android:background="@drawable/bptm1">
+	</Button>
+
+	<Button android:id="@+id/Uuq" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Uuq"
+		android:layout_marginTop="222dip" android:layout_marginLeft="160dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Tl" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Tl"
+		android:layout_marginTop="182dip" android:layout_marginLeft="120dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Uuh" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Uuh"
+		android:layout_marginTop="222dip" android:layout_marginLeft="240dip"
+		android:background="@drawable/bptm1">
+	</Button>
+	<Button android:id="@+id/Uup" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Uup"
+		android:layout_marginTop="222dip" android:layout_marginLeft="200dip"
+		android:background="@drawable/bptm1">
+	</Button>
+
+
+
+	<Button android:layout_marginTop="22dip" android:layout_height="40dip"
+		android:layout_width="40dip" android:layout_marginLeft="120dip"
+		android:id="@+id/B" android:text="B" android:background="@drawable/bptm2"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="160dip" android:layout_marginTop="62dip"
+		android:id="@+id/Si" android:text="Si" android:background="@drawable/bptm2"></Button>
+	<Button android:id="@+id/Ge" android:text="Ge"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="160dip" android:layout_marginTop="102dip"
+		android:background="@drawable/bptm2"></Button>
+	<Button android:layout_marginTop="102dip" android:layout_height="40dip"
+		android:layout_width="40dip" android:layout_marginLeft="200dip"
+		android:text="As" android:id="@+id/As" android:background="@drawable/bptm2"></Button>
+	<Button android:id="@+id/Sb" android:text="Sb"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="142dip" android:layout_marginLeft="200dip"
+		android:background="@drawable/bptm2"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="240dip" android:text="Te"
+		android:layout_marginTop="142dip" android:id="@+id/Te"
+		android:background="@drawable/bptm2"></Button>
+	<Button android:id="@+id/Po" android:text="Po"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="240dip" android:layout_marginTop="182dip"
+		android:background="@drawable/bptm2"></Button>
+	<Button android:text="C" android:id="@+id/C"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="22dip" android:layout_marginLeft="160dip"
+		android:background="@drawable/bh1"></Button>
+	<Button android:id="@+id/N" android:text="N"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="22dip" android:layout_marginLeft="200dip"
+		android:background="@drawable/bh1"></Button>
+	<Button android:layout_marginTop="62dip"
+		android:layout_marginLeft="200dip" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="P" android:id="@+id/P"
+		android:background="@drawable/bh1"></Button>
+	<Button android:layout_marginTop="22dip"
+		android:layout_marginLeft="240dip" android:layout_height="40dip"
+		android:layout_width="40dip" android:text="O" android:id="@+id/O"
+		android:background="@drawable/bh1"></Button>
+	<Button android:layout_marginTop="62dip"
+		android:layout_marginLeft="240dip" android:layout_height="40dip"
+		android:layout_width="40dip" android:text="S" android:id="@+id/S"
+		android:background="@drawable/bh1"></Button>
+	<Button android:id="@+id/Se" android:text="Se"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="240dip" android:layout_marginTop="102dip"
+		android:background="@drawable/bh1"></Button>
+	<Button android:id="@+id/F" android:text="F"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="280dip" android:layout_marginTop="22dip"
+		android:background="@drawable/bh2"></Button>
+	<Button android:layout_marginLeft="280dip"
+		android:layout_marginTop="62dip" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Cl" android:id="@+id/Cl"
+		android:background="@drawable/bh2"></Button>
+	<Button android:id="@+id/Br" android:text="Br"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="280dip" android:layout_marginTop="102dip"
+		android:background="@drawable/bh2"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="280dip" android:layout_marginTop="142dip"
+		android:text="I" android:id="@+id/I" android:background="@drawable/bh2"></Button>
+	<Button android:id="@+id/At" android:text="At"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="280dip" android:layout_marginTop="182dip"
+		android:background="@drawable/bh2"></Button>
+	<Button android:layout_marginTop="222dip"
+		android:layout_marginLeft="280dip" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Uus" android:id="@+id/Uus"
+		android:background="@drawable/bh2"></Button>
+	<Button android:id="@+id/Ne" android:text="Ne"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="320dip" android:layout_marginTop="22dip"
+		android:background="@drawable/bng"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="320dip" android:layout_marginTop="62dip"
+		android:text="Ar" android:id="@+id/Ar" android:background="@drawable/bng"></Button>
+	<Button android:id="@+id/Kr" android:text="Kr"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="320dip" android:layout_marginTop="102dip"
+		android:background="@drawable/bng"></Button>
+	<Button android:layout_marginLeft="320dip"
+		android:layout_marginTop="142dip" android:layout_height="40dip"
+		android:layout_width="40dip" android:text="Xe" android:id="@+id/Xe"
+		android:background="@drawable/bng"></Button>
+	<Button android:id="@+id/Rn" android:text="Rn"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="320dip" android:layout_marginTop="182dip"
+		android:background="@drawable/bng"></Button>
+	<Button android:layout_marginTop="222dip"
+		android:layout_marginLeft="320dip" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Uuo" android:id="@+id/Uuo"
+		android:background="@drawable/bng"></Button>
+	<Button android:id="@+id/He" android:text="He"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="380dip" android:layout_marginTop="121dip"
+		android:background="@drawable/bng"></Button>
+
+	<Button
+	    android:id="@+id/zoomout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:textColor="#FF777777"
+	    android:background="#FFffffff"
+	    android:text="Zoom Out" />
+
+</RelativeLayout>

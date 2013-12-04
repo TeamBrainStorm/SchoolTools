@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MidActivity"
+    android:background="#ffe5e5e5" >
+
+    <LinearLayout
+        android:id="@+id/layoutAction"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffe5e5e5"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/arc"
+            android:textColor="#ff777777"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mathbttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff777777"
+        android:background="#ffffffff" 
+        android:onClick="sin"
+        android:text="@string/getarc" />
+
+    <TextView
+        android:id="@+id/textSinRes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mathbttn"
+        android:layout_below="@+id/lin"
+        android:textColor="#ff777777"
+        android:paddingTop="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin2"
+        
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+         >
+
+        <EditText
+            android:id="@+id/editSinR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:background="@drawable/card_white"
+           android:layout_weight="1"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:text="edit value"
+            android:textColor="#FF777777"
+            android:inputType="numberDecimal"
+            tools:ignore="HardcodedText"  >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editlen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_white"
+            android:layout_weight="1"
+            android:imeOptions="actionGo"
+            android:gravity="center"
+            android:text="edit value"
+            android:textColor="#FF777777"
+            android:inputType="numberDecimal"
+            tools:ignore="HardcodedText"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layoutAction"
+        
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            android:background="#FFFFAE18"
+            android:gravity="center"
+            android:text="@string/measure"
+            android:textColor="#ffffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:background="#FF24ADDE"
+            android:text="@string/raduis"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

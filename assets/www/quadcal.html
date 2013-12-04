@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body,td,th {
+	color: #FFF;
+}
+body {
+	background-color: #000;
+}
+</style>
+</head>
+
+<body>
+
+<SCRIPT language="JavaScript">
+<!--
+
+//Quadratic Calculator, by Taydron
+//http://www.taydron-domain.net
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+function quadData1() {
+var valA = document.quadCalc.valA.value;
+var valB = document.quadCalc.valB.value;
+var valC = document.quadCalc.valC.value;
+var disc = (valB*valB)-(4*valA*valC);
+var r_disc = Math.sqrt(disc);
+var vax1 = (-valB+r_disc)/(2*valA);
+var vax2 = (-valB-r_disc)/(2*valA);
+var ing1 = ((valA*vax1*vax1*vax1)/3)+((valB*vax1*vax1)/2)+(valC*vax1);
+var ing2 = ((valA*vax2*vax2*vax2)/3)+((valB*vax2*vax2)/2)+(valC*vax2);
+var inte = ing1-ing2;
+var sec_dx = (-valB)/(2*valA);
+var sec_dy = (valA*sec_dx*sec_dx)+(valB*sec_dx)+(1*valC);
+var e_val;
+vax1 = Math.round(vax1*100)/100;
+vax2 = Math.round(vax2*100)/100;
+inte = Math.round(inte*100)/100;
+sec_dx = Math.round(sec_dx*100)/100;
+sec_dy = Math.round(sec_dy*100)/100;
+if (valA == 0) {document.quadCalc.answer1.value = "This curve is not a quadratic. Enter a non-zero value in the first box.";} 
+ else {
+ if (disc>0) {
+  document.quadCalc.answer1.value = "The curve intercepts the x-axis at: " +vax1+ " and " +vax2+ ".";
+   {
+   if (inte>0) {document.quadCalc.answer2.value = inte;} 
+   if (inte<0) {document.quadCalc.answer2.value = -inte;} 
+   if (inte=0) {document.quadCalc.answer2.value = 0;}
+   }
+  } if (disc<0) {
+  document.quadCalc.answer1.value = "The curve has no real roots, because it does not intercept the real x-axis.";
+  document.quadCalc.answer2.value = "N/A";
+  } if (disc=0) {
+  document.quadCalc.answer1.value = "The curve touches the x-axis at: " +vax1+ ".";
+  document.quadCalc.answer2.value = "N/A";
+  }
+ document.quadCalc.answer3.value = (2*valA)+ "x+" +valB;
+ if (valA<0) {e_val = "maximum";} 
+ if (valA>0) {e_val = "minimum";} 
+ document.quadCalc.answer4.value = e_val;
+ document.quadCalc.answer5.value = sec_dx+ " , " +sec_dy;
+  }
+ }
+//-->
+</SCRIPT>
+
+<b>Quadratic Calculator</b>
+<form name="quadCalc">
+
+A quadratic is a curve of the parabola family.<br />
+They are written in the format ax<sup>2</sup>+bx+c=0.<br /><br />
+<input type="text" maxlength="8" name="valA" value="8" size="4">x<sup>2</sup>+
+<input type="text" maxlength="8" name="valB" value="10" size="4">x+
+<input type="text" maxlength="8" name="valC" value="2" size="4">=0<br />
+<input type="button" onClick=quadData1() value="Calculate"> <input type="reset" value="Reset"><br />
+<input type="text" name="answer1" readonly="readonly" size="60"><br />
+The area bounded by the curve above the x-axis is: <input type="text" name="answer2" readonly="readonly" size="6"> sq. units.<br />
+The gradient of the curve at any point is: <input type="text" name="answer3" size="10">.<br />
+The <input type="text" name="answer4" readonly="readonly" size="8"> value of the curve occurs at co-ordinates: <input type="text" name="answer5" readonly="readonly" size="10">.
+</form>
+
+<p align="center">&nbsp;</p>
+</body>
+</html>

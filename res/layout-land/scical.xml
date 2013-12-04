@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="#FFe5e5e5"
+     
+     >
+ 
+ 
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="64dip"
+        android:background="#FF427FED" />
+    
+    
+        
+    <LinearLayout android:id="@+id/linearLayout2" android:gravity="center_horizontal" 
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+         >
+
+        <Button
+            android:id="@+id/buttonLeftParen"
+            android:layout_width="80dp"
+            android:layout_height="64dp"
+            android:background="@drawable/calculator_btn"
+            android:text="("
+            android:textColor="#FFffffff" />
+        
+        <Button android:layout_height="64dp" android:id="@+id/button7" 
+            android:text="7" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/button8" 
+            android:text="8" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/button9" 
+            android:text="9" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/buttonPlus" 
+            android:text="+" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonRightParen"
+            android:layout_width="80dp"
+            android:layout_height="64dp"
+            android:background="@drawable/calculator_btn"
+            android:text=")" />
+        
+        <Button android:layout_height="64dp" android:id="@+id/button4" 
+            android:text="4" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/button5" 
+            android:text="5" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/button6" 
+            android:text="6" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/buttonMinus" 
+            android:text="-" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonBackspace"
+            android:layout_width="80dp"
+            android:layout_height="64dp"
+            android:background="@drawable/calculator_btn"
+            android:text="B"
+            android:textColor="#FFffffff" />
+        
+        <Button android:layout_height="64dp" android:id="@+id/sci" 
+            android:text="1" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/heatcal" 
+            android:text="2" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/tempcal" 
+            android:text="3" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/buttonTimes" 
+            android:text="*" android:textColor="#FFffffff" android:layout_width="80dp"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout5" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="80dp"
+            android:layout_height="64dp"
+            android:background="@drawable/calculator_btn"
+            android:text="C"
+            android:textColor="#FFffffff" />
+        
+        <Button android:layout_height="64dp" android:layout_width="80dp" 
+            android:textColor="#FFffffff" android:id="@+id/button0" android:text="0"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:layout_width="80dp" 
+            android:textColor="#FFffffff" android:id="@+id/buttonDecimal" android:text="."
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:layout_width="80dp" 
+            android:textColor="#FFffffff" android:id="@+id/buttonEquals" android:text="="
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+        <Button android:layout_height="64dp" android:id="@+id/buttonDivide" android:text="/" 
+            android:layout_width="80dp" android:textColor="#FFffffff"
+            android:background="@drawable/calculator_btn"
+            >
+            
+        </Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="DuplicateIds"
+    android:background="#FFe5e5e5" >
+
+    <LinearLayout
+        android:id="@+id/layoutAction"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+		
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/title_activity_slope"
+            android:textColor="#FF777777"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+<LinearLayout
+        android:id="@+id/linearLayoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutAction"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:background="#FF16A584" 
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:background="#FFBC149B" 
+            android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_below="@+id/linearLayoutTitle"
+        android:background="@drawable/card_white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:text="@string/rarrow"
+            android:layout_marginLeft="8dp"
+            android:textColor="#FF777777"
+            />
+
+        <EditText 
+            android:imeOptions="actionNext"
+            android:id="@+id/editX1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:textColor="#FF777777"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="@string/X1" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:textColor="#FF777777"
+            android:text="@string/comma"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText 
+            android:imeOptions="actionNext"
+            android:id="@+id/editY1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:textColor="#FF777777"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="@string/Y1" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/darrow"
+            android:textColor="#FF777777"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText 
+            android:imeOptions="actionNext"
+            android:id="@+id/editX2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:textColor="#FF777777"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="@string/X2" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="@string/comma"
+            android:textColor="#FF777777"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editY2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:hint="@string/Y2"
+            android:textColor="#FF777777"
+            android:imeOptions="actionGo"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#FF777777"
+            android:layout_marginRight="8dp"
+            android:text="@string/larrow"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mathbttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="slope"
+        android:background="#FFffffff"
+        android:textColor="#FF777777"
+        android:text="@string/get_slope" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:id="@+id/textRes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mathbttn"
+        android:layout_below="@+id/linearLayout1"
+        android:paddingTop="2dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

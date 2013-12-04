@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rarrow"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editX1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:hint="@string/X1"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="@string/comma"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editY1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:hint="@string/Y1"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/darrow"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editX2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:hint="@string/X2"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="@string/comma"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editY2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:ems="10"
+            android:hint="@string/Y2"
+            android:imeOptions="actionGo"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/larrow"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.87"
+            android:clickable="true"
+            android:text="Cancel"
+            android:background="@drawable/card_white"
+            android:textColor="#FF777777"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.87"
+            android:clickable="true"
+            android:text="Add"
+            
+            android:background="@drawable/card_white"
+            android:textColor="#FF777777"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

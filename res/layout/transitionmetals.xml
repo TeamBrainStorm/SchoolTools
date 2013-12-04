@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#FFe5e5e5" android:id="@+id/transitionmetals">
+
+	<Button android:id="@+id/Nb" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Nb"
+		android:layout_marginLeft="120dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/V" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="V"
+		android:layout_marginLeft="120dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Mo" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Mo"
+		android:layout_marginLeft="160dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Cr" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Cr"
+		android:layout_marginLeft="160dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Mn" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Mn"
+		android:layout_marginLeft="200dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ru" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ru"
+		android:layout_marginLeft="240dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Fe" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Fe"
+		android:layout_marginLeft="240dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Co" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Co"
+		android:layout_marginLeft="280dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Pd" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Pd"
+		android:layout_marginLeft="320dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ni" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ni"
+		android:layout_marginLeft="320dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ag" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ag"
+		android:layout_marginLeft="360dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Cu" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Cu"
+		android:layout_marginLeft="360dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Rh" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Rh"
+		android:layout_marginLeft="280dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Cd" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Cd"
+		android:layout_marginLeft="400dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Tc" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Tc"
+		android:layout_marginLeft="200dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Zn" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Zn"
+		android:layout_marginLeft="400dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Hf" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Hf"
+		android:layout_marginLeft="80dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Rf" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Rf"
+		android:layout_marginLeft="80dip" android:layout_marginTop="182dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ir" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ir"
+		android:layout_marginLeft="280dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Hg" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Hg"
+		android:layout_marginLeft="400dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ta" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ta"
+		android:layout_marginLeft="120dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Os" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Os"
+		android:layout_marginLeft="240dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/W" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="W"
+		android:layout_marginLeft="160dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Au" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Au"
+		android:layout_marginLeft="360dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Pt" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Pt"
+		android:layout_marginLeft="320dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Re" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Re"
+		android:layout_marginLeft="200dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="320dip" android:layout_marginTop="182dip"
+		android:id="@+id/Ds" android:text="Ds" android:background="@drawable/btm">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="360dip" android:layout_marginTop="182dip"
+		android:id="@+id/Rg" android:text="Rg" android:background="@drawable/btm">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="400dip" android:layout_marginTop="182dip"
+		android:background="@drawable/btm" android:id="@+id/Cn" android:text="Cn">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="200dip" android:layout_marginTop="182dip"
+		android:id="@+id/Bh" android:text="Bh" android:background="@drawable/btm">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="120dip" android:layout_marginTop="182dip"
+		android:background="@drawable/btm" android:id="@+id/Db" android:text="Db">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="160dip" android:layout_marginTop="182dip"
+		android:text="Sg" android:id="@+id/Sg" android:background="@drawable/btm">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="280dip" android:layout_marginTop="182dip"
+		android:id="@+id/Mt" android:text="Mt" android:background="@drawable/btm">
+	</Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="240dip" android:layout_marginTop="182dip"
+		android:text="Hs" android:id="@+id/Hs" android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ti" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ti"
+		android:layout_marginLeft="80dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Ac" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Ac"
+		android:layout_marginLeft="40dip" android:layout_marginTop="182dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Zr" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Zr"
+		android:layout_marginLeft="80dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Sc" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Sc"
+		android:layout_marginLeft="40dip" android:layout_marginTop="62dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/Y" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="Y"
+		android:layout_marginLeft="40dip" android:layout_marginTop="102dip"
+		android:background="@drawable/btm">
+	</Button>
+	<Button android:id="@+id/La" android:layout_width="40dip"
+		android:layout_height="40dip" android:text="La"
+		android:layout_marginLeft="40dip" android:layout_marginTop="142dip"
+		android:background="@drawable/btm">
+	</Button>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_marginTop="242dip" android:layout_height="wrap_content"
+		android:layout_marginLeft="145dip" android:id="@+id/Text"></TextView>
+
+	<Button
+	    android:id="@+id/zoomout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    
+	    android:background="#FFffffff"
+	    android:text="Zoom Out"
+	    android:textColor="#FF777777" />
+
+</RelativeLayout>

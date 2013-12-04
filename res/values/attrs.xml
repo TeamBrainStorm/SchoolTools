@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+    	<attr name="titleColor" format="color" />
+    	<attr name="homeIcon" format="reference" />
+    	<attr name="editTex" format="reference" />
+    	<attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+        <attr name="buttonBarDividerStyle" format="reference" />
+    </declare-styleable>
+</resources>

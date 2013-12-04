@@ -1,0 +1,62 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <style name="AppTheme.Blue.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_blue_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_blue</item>
+    </style>
+
+    <style name="AppTheme.Blue.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_blue_light</item>
+        <item name="attr/homeIcon">@drawable/btn_blue</item>
+    </style>
+
+    <style name="AppTheme.Green.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_green_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_green</item>
+    </style>
+
+    <style name="AppTheme.Green.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_green_light</item>
+        <item name="attr/homeIcon">@drawable/btn_green</item>
+    </style>
+
+    <style name="AppTheme.Red.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_red_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_red</item>
+    </style>
+
+    <style name="AppTheme.Red.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_red_light</item>
+        <item name="attr/homeIcon">@drawable/btn_red</item>
+    </style>
+
+    <style name="AppTheme.Orange.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_orange_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_orange</item>
+    </style>
+
+    <style name="AppTheme.Orange.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_orange_light</item>
+        <item name="attr/homeIcon">@drawable/btn_orange</item>
+    </style>
+
+    <style name="AppTheme.Purple" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_purple</item>
+        <item name="attr/homeIcon">@drawable/btn_purple</item>
+    </style>
+    
+    <style name="Theme.Light" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="buttonBarDividerStyle">@style/ButtonBarDivider</item>
+    </style>
+
+</resources>

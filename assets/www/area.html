@@ -1,0 +1,89 @@
+
+<!-- TWO STEPS TO INSTALL AREA CALCULATOR 2:
+
+  1.  Copy the coding into the HEAD of your HTML document
+  2.  Add the last code into the BODY of your HTML document  -->
+
+<!-- STEP ONE: Paste this code into the HEAD of your HTML document  -->
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+<!-- Original:  Matthew d. Krieg (battlebots102001@yahoo.com) -->
+<!-- Web Site:  http://geocities.com/battlebots102001/javascript_gizmos/index.htm -->
+
+<!-- Begin
+var formulas = new Array()
+formulas["square"] = "Math.pow(num_one,2)";
+formulas["rectangle"] = "num_one * num_two"
+formulas["parallelg"] = "num_one * num_two";
+formulas["triangle"] = "num_one * num_two / 2";
+
+function getCheckedNum()
+{
+var selected;
+for(var loop=0;loop<window.document.convert.to_which.length;loop++)
+{
+if(window.document.convert.to_which[loop].checked == true)
+{
+selected = loop;
+}
+}
+return selected;
+}
+function calculate(num_one,num_two)
+{
+if((isNaN(parseInt(num_one))) || (isNaN(parseInt(num_two))))
+{
+alert('You must enter numbers');
+return;
+}
+var selected_index = getCheckedNum();
+var selected_value = window.document.convert.to_which[selected_index].value;
+if((selected_value == "square") && (num_one != num_two))
+{
+alert('Your square is not square');
+return;
+}
+formula = formulas[selected_value];
+var answer = eval(formula);
+alert(answer);
+}
+//  End -->
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body,td,th {
+	color: #8C8C8C;
+}
+body {
+	background-color: #FFFFFF;
+}
+</style>
+</HEAD>
+
+<!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
+
+<BODY>
+
+<div align="center">
+<form name="convert">
+    Find the area of a:<br>
+      <input type="radio" checked="yes" name="to_which" value="square">square<br>
+      <input type="radio" name="to_which" value="rectangle">rectangle<br>
+      <input type="radio" name="to_which" value="parallelg">parallelogram<br>
+      <input type="radio" name="to_which" value="triangle">triangle<br>
+    The base is: <input type="number" size="5" name="base">   The height is: <input type="number" size="5" name="height"><br>
+    <input type="button" value="calculate" onclick="calculate(window.document.convert.base.value,window.document.convert.height.value);">
+</form>
+</div>
+
+
+<p><center>
+</center><p>
+
+<!-- Script Size:  2.44 KB -->

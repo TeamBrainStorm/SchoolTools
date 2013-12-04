@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.d4a.stz"
+    android:versionCode="2"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.d4a.stz.ToolsHome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Tools"
+            android:label="@string/title_activity_tools" >
+        </activity>
+ 
+        <activity
+            android:name="com.d4a.stz.Factorcal"
+            android:label="@string/title_activity_factorcal" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Areacal"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:label="@string/title_activity_areacal" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.FCalulator"
+            android:label="@string/title_activity_fcalulator" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Linearcal"
+            android:label="@string/title_activity_linearcal" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Graph"
+            android:label="@string/title_activity_graph" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Qcal"
+            android:label="@string/title_activity_qcal" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Ptcal"
+            android:label="@string/title_activity_ptcal" >
+        </activity>
+        <activity android:name="com.d4a.stz.SlopeActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.DistanceActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.MidActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.ThemeActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.FormActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.CircleActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.CirActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.SqrActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.SinActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.CosActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.TanActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.xSinActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.xCosActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.xTanActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.ArcActivity" >
+        </activity>
+        <activity android:name="com.d4a.stz.AboutActivity" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.GraphActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity android:name="com.d4a.stz.Distance3DActivity" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Main"
+            android:label="@string/title_activity_tools_home" >
+         
+        </activity>
+        <activity
+            android:name="com.d4a.stz.SciHome"
+            android:label="@string/title_activity_sci_home" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.periodictable"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.TM"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.d4a.stz.Bottom" >
+        </activity>
+        <activity android:name="com.d4a.stz.Alkaline" >
+        </activity>
+        <activity android:name="com.d4a.stz.Splash" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.SciConvert"
+            android:label="@string/title_activity_sci_convert" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.Scorchcal"
+            android:label="@string/title_activity_scorchcal" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.TempCal"
+            android:label="@string/title_activity_temp_cal" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.HeatCal"
+            android:label="@string/title_activity_heat_cal" >
+        </activity>
+        
+         <activity
+            android:name="com.d4a.stz.Right" >
+        </activity>
+        <activity
+            android:name="com.d4a.stz.MainActivity" >
+        </activity>
+
+           <activity
+            android:name="jp.yhonda.MaximaOnAndroidActivity" >
+        </activity>
+                  
+           <activity
+            android:name="jp.yhonda.CommandExec" >
+        </activity>
+        
+              <activity
+            android:name="jp.yhonda.HTMLActivity" >
+        </activity>
+        
+                 <activity
+            android:name="jp.yhonda.ManualActivity" >
+        </activity>
+        
+                      <activity
+            android:name="jp.yhonda.MaximaVersion" >
+        </activity>
+        
+                   <activity
+            android:name="jp.yhonda.MOAInstallerActivity" >
+        </activity>
+                
+                    <activity
+            android:name="jp.yhonda.UnzipAsyncTask" >
+        </activity>       
+                   
+    </application>
+    
+    
+    
+</manifest>

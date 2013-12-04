@@ -1,0 +1,116 @@
+
+
+
+
+
+<script type="text/javascript" src="linear-equation-solver.js"></script>
+<script type="text/javascript" src="pages_math.js"></script>
+<script type="text/javascript" src="glob.js"></script>
+<style type="text/css">
+body,td,th {
+	color: #8C8C8C;
+}
+body {
+	background-color: #FFFFFF;
+}
+</style>
+
+
+
+
+
+
+<a name="calculator"></a>
+
+<!-- begin above calculator -->
+
+
+<!-- end above calculator -->
+
+<form name="calc" method="post" action="#">
+
+<table class="CalcTable">
+<tbody>
+
+<tr>
+<td colspan="2" align="center" class="CalcTitleCell">
+Linear Equation Solver
+</td>
+</tr>
+<tr>
+<td colspan="2" class="CalcInstructCell">
+
+
+
+
+
+</td></tr><tr class="ChartRowOdd">
+<td width="300" class="ChartTextCellLeft">
+
+Example linear Equations:
+</td>
+<td width="250" class="ChartTextCell">
+<select name="samps" size="1" onchange="get_samp(this.form)">
+<option value="">----ENTER MY OWN----</option>
+<option value="">----BASIC----</option>
+<option value="10-3x=7">10-3x=7</option>
+<option value="5x-6=3x-8">5x-6=3x-8</option>
+<option value="">----DISTRIBUTION----</option>
+<option value="2(x+5)-7=3(x-2)">2(x+5)-7=3(x-2)</option>
+<option value="2(3x-7)+4(3x+2)=6(5x+9)+3">2(3x-7)+4(3x+2)=6(5x+9)+3</option>
+<option value="">----FRACTIONS----</option>
+<option value="5/4x+1/2=2x-1/2">5/4x+1/2=2x-1/2</option>
+<option value="3/4x+5/6=5x-125/3">3/4x+5/6=5x-125/3</option>
+<option value="">----DECIMALS----</option>
+<option value=".25a-.05=.2a+.15">.25a-.05=.2a+.15</option>
+<option value=".35y-.2=.15y+.1">.35y-.2=.15y+.1</option>
+</select>
+</td>
+</tr>
+
+<tr class="ChartRowEven">
+<td width="300" class="ChartTextCellLeft">
+
+Linear equation:
+</td>
+<td width="300" class="ChartTextCell">
+<input type="txtNumber" id="equation" name="equation" size="30" value="" class="CalcInFld" onkeyup="clear_results(this.form)">
+</td>
+</tr>
+
+
+<tr class="ChartRowOdd">
+<td colspan="2" class="ChartTextCell">
+<input type="button" value="Solve Linear Equation" class="CalcButton" onclick="solve_equation(this.form)">
+<input type="button" value="Reset" class="CalcButton" onclick="reset_calc(this.form)">
+</td>
+</tr>
+
+<tr class="ChartRowEven">
+<td width="300" class="ChartTextCellLeft">
+
+Calculated solution:
+</td>
+<td width="300" class="ChartTextCell">
+<input type="text" id="ans" name="ans" size="25" value="" class="CalcOutFldEven">
+</td>
+</tr>
+
+
+<tr class="ChartRowOdd">
+<td colspan="2" class="CalcSummaryCell" id="summary">
+</td></tr><tr><td colspan="2" class="calc_soc_row"><br>
+
+<!-- end social bottom calculator -->
+
+</td>
+</tr>
+
+</tbody>
+</table>
+</form>
+
+<p></p>
+
+
+

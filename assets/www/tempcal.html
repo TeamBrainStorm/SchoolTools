@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body,td,th {
+	color: #8C8C8C;
+}
+body {
+	background-color: rgba(255,255,255,1);
+}
+</style>
+</head>
+<body>
+
+<FORM>
+Fahrenheit:<INPUT TYPE="text" NAME="F" VALUE="" SIZE="6" MAXLENGTH="6" onChange="eval('C.value = ' + this.form.C_expr.value);eval('K.value = ' + this.form.K_expr.value)">
+              <INPUT TYPE="hidden" NAME="F_expr" VALUE="(Math.round(((212-32)/100 * C.value + 32)*100))/100;">
+<INPUT TYPE="hidden" NAME="F_expr2" VALUE="(Math.round(((212-32)/100 *(K.value - 273) + 32)*100))/100; ">
+ Celsius:<INPUT TYPE="text" NAME="C" VALUE="" SIZE="6" MAXLENGTH="6" onChange="eval('F.value = ' + this.form.F_expr.value);eval('K.value = ' + this.form.K_expr.value)">
+              <INPUT TYPE="hidden" NAME="C_expr" VALUE="(Math.round((100/(212-32) * (F.value - 32))*100))/100"> <INPUT TYPE="hidden" NAME="C_expr2" VALUE="(Math.round(K.value - 273))">&nbsp;
+Kelvin:<INPUT TYPE="text" NAME="K" VALUE="" SIZE="6" MAXLENGTH="6" onChange="eval('F.value = ' + this.form.F_expr2.value);eval('C.value = ' + this.form.C_expr2.value)">
+              <INPUT TYPE="hidden" NAME="K_expr" VALUE="(Math.round((100/(212-32) * (F.value - 32))*100))/100 + 273">&nbsp;
+  
+<INPUT TYPE="button" NAME="Reset" VALUE="Submit">
+<INPUT TYPE="Reset" NAME="Reset" VALUE="Reset">
+</FORM>
+
+</body>
+
+</html>

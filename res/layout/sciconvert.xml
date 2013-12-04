@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFe5e5e5"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SciConvert" >
+
+    <Button
+        android:id="@+id/stoich"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/lb_stoich"
+        android:text="Stoichiometry\n Calculator"
+        android:paddingLeft="20dp"
+        android:textColor="#FF777777"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/heatcal"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/stoich"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/lb_heat"
+        android:text="Heat Converter"
+        android:paddingLeft="20dp"
+        android:textColor="#FF777777"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/tempcal"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/heatcal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/lb_temp"
+        
+        android:text="Temperature\n Converter"
+        android:paddingLeft="20dp"
+        android:textColor="#FF777777"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

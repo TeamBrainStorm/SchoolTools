@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+       <item name="attr/editTex">@android:drawable/editbox_background </item>d
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme.Blue.Dark" parent="AppBaseTheme">
+    
+        <item name="attr/homeIcon">@drawable/btn_blue</item>
+    </style>
+
+    <style name="AppTheme.Blue.Light" parent="AppBaseTheme">
+ 
+        <item name="attr/homeIcon">@drawable/btn_blue</item>
+    </style>
+
+    <style name="AppTheme.Green.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_green_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_green</item>
+    </style>
+
+    <style name="AppTheme.Green.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_green_light</item>
+        <item name="attr/homeIcon">@drawable/btn_green</item>
+    </style>
+
+    <style name="AppTheme.Red.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_red_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_red</item>
+    </style>
+
+    <style name="AppTheme.Red.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_red_light</item>
+        <item name="attr/homeIcon">@drawable/btn_red</item>
+    </style>
+
+    <style name="AppTheme.Orange.Dark" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_orange_dark</item>
+        <item name="attr/homeIcon">@drawable/btn_orange</item>
+    </style>
+
+    <style name="AppTheme.Orange.Light" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_orange_light</item>
+        <item name="attr/homeIcon">@drawable/btn_orange</item>
+    </style>
+
+    <style name="AppTheme.Purple" parent="AppBaseTheme">
+        <item name="titleColor">@color/holo_purple</item>
+        <item name="attr/homeIcon">@drawable/btn_purple</item>
+    </style>
+    
+    <style name="ButtonBarDivider">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="Theme.Black" parent="@android:style/Theme.Black">
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+        <item name="buttonBarDividerStyle">@style/ButtonBarDivider</item>
+    </style>
+
+    <style name="Theme.Light" parent="@android:style/Theme.Light">
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+        <item name="buttonBarDividerStyle">@style/ButtonBarDivider</item>
+    </style>
+</resources>

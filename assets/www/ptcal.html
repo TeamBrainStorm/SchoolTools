@@ -1,0 +1,90 @@
+
+<!doctype html public "-//w3c//dtd html 3.2//en"><html>
+<head>
+<title>Pythagorean Theorem</title>
+<meta name="GENERATOR" content="Arachnophilia 4.0">
+<meta name="FORMATTER" content="Arachnophilia 4.0">
+<Script language=JavaScript>
+<!--  Hide factor
+function process(){
+a=document.formp.a.value;
+b=document.formp.b.value;
+c=document.formp.c.value;
+d=document.formp.worksp.value;
+n="\n";
+p=" + ";
+m=" - ";
+s="�";
+// alt 253
+e=" = ";
+	if(a=="a"){
+		answer=Math.sqrt((c*c)-(b*b))
+		document.formp.a.value=answer;
+		document.formp.worksp.value=d+n+a+s+p+b+s+e+c+s+n;
+		document.formp.worksp.value+=a+s+p+b+s+m+b+s+e+c+s+m+b+s+n;
+		document.formp.worksp.value+=a+s+e+(c*c)+m+(b*b)+n;
+		document.formp.worksp.value+=a+s+e+((c*c)-(b*b))+n;
+		document.formp.worksp.value+=a+e+answer;
+	}
+	if(b=="b"){
+		answer=Math.sqrt((c*c)-(a*a))
+		document.formp.b.value=answer;
+		document.formp.worksp.value=d+n+a+s+p+b+s+e+c+s+n;
+		document.formp.worksp.value+=a+s+p+b+s+m+a+s+e+c+s+m+a+s+n;
+		document.formp.worksp.value+=b+s+e+(c*c)+m+(a*a)+n;
+		document.formp.worksp.value+=b+s+e+((c*c)-(a*a))+n;
+		document.formp.worksp.value+=b+e+answer;
+	}
+	if(c=="c"){
+		answer=Math.sqrt((a*a)+(b*b))
+		document.formp.c.value=answer;
+		document.formp.worksp.value=d+n+a+s+p+b+s+e+c+s+n;
+		document.formp.worksp.value+=(a*a)+p+(b*b)+e+c+s+n;
+		document.formp.worksp.value+=answer+e+c;
+	}
+}
+
+// end the hide -->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body,td,th {
+	color: rgba(255,255,255,1);
+}
+body {
+	background-color: #FFFFFF;
+}
+</style>
+</head>
+
+<body link="#ff0000" vlink="#ff8000" alink="#0000ff">
+
+<Form name=formp>
+<table cellspacing=1 cellpadding=1 border=0 >
+<tr>
+	<td colspan=3 bgcolor=#A7A7A7><center><font size="+1"><i>Pythagorean Theorem</i></font></center>
+<center><font size="+2">a<sup>2</sup>+b<sup>2</sup>=c<sup>2</sup></font></center>
+</tr>
+<tr>
+	<td valign=middle><div align="right"><input size=5 name=b value="b">
+</div></td>
+	<td ><div align="center"><img src="pythag1.gif" width="65" height="84" alt="Right Triangle" border=1></div></td>
+	<td valign=middle><input size=5 name=c value="c"></td>
+</tr>
+<tr>
+	<td></td>
+	<td><center><input size=5 name=a value="a"></center></td>
+	<td></td>
+</tr>
+<tr>
+	<td colspan="3"><br>
+	<center><input type=button value=Calculate: onclick=process()>&nbsp;<font size="-1"><b>(Don't forget UNITS!)</b></font></center></td>
+</tr><tr>
+	<td colspan=3><textarea name=worksp cols=40 rows=6 value="">Check the procedure: (^2='squared')</textarea>
+<tr><td colspan="3"><center><input type=reset value=Reset></center><div align=right></div></td>
+</tr>
+</table>
+</body>
+
+</html>
+

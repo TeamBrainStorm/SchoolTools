@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#FFe5e5e5" android:id="@+id/left">
+
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:text="H" android:id="@+id/H" android:layout_marginLeft="100dip"
+		android:layout_marginTop="120dip" android:background="@drawable/bhydrogen" ></Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="175dip" android:layout_marginTop="20dip"
+		android:text="Li" android:id="@+id/Li" android:background="@drawable/balkali"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="175dip" android:layout_marginTop="60dip"
+		android:id="@+id/Na" android:text="Na" android:background="@drawable/balkali"></Button>
+	<Button android:layout_marginLeft="175dip"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="100dip" android:text="K" android:id="@+id/K"
+		android:background="@drawable/balkali"></Button>
+	<Button android:layout_marginLeft="175dip"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="140dip" android:id="@+id/Rb" android:text="Rb"
+		android:background="@drawable/balkali"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="175dip" android:layout_marginTop="220dip"
+		android:id="@+id/Fr" android:text="Fr" android:background="@drawable/balkali"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="175dip" android:layout_marginTop="180dip"
+		android:text="Cs" android:id="@+id/Cs" android:background="@drawable/balkali"></Button>
+	<Button android:layout_marginLeft="232dip" android:id="@+id/Be"
+		android:text="Be" android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="20dip" android:background="@drawable/balkaliearth"></Button>
+	<Button android:layout_width="40dip" android:layout_height="40dip"
+		android:layout_marginLeft="232dip" android:layout_marginTop="100dip"
+		android:id="@+id/Ca" android:text="Ca" android:background="@drawable/balkaliearth"></Button>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginLeft="232dip" android:layout_marginTop="140dip"
+		android:text="Sr" android:id="@+id/Sr" android:background="@drawable/balkaliearth"></Button>
+	<Button android:layout_marginTop="180dip"
+		android:layout_marginLeft="232dip" android:layout_height="40dip"
+		android:layout_width="40dip" android:text="Ba" android:id="@+id/Ba"
+		android:background="@drawable/balkaliearth"></Button>
+	<Button android:layout_marginTop="220dip"
+		android:layout_marginLeft="232dip" android:layout_width="40dip"
+		android:layout_height="40dip" android:id="@+id/Ra" android:text="Ra"
+		android:background="@drawable/balkaliearth"></Button>
+	<Button android:layout_marginLeft="232dip"
+		android:layout_height="40dip" android:layout_width="40dip"
+		android:layout_marginTop="60dip" android:text="Mg" android:id="@+id/Mg"
+		android:background="@drawable/balkaliearth"></Button>
+
+	<Button
+	    android:id="@+id/zoomout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:background="#FFffffff"
+	    android:textColor="#FF777777"
+	    android:text="Zoom Out" />
+
+</RelativeLayout>

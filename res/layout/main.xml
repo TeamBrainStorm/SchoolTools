@@ -1,0 +1,124 @@
+<!--  
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main" android:background="#FFe5e5e5"
+	android:gravity="center_vertical"
+	>
+
+
+	<Button android:id="@+id/transmetbutton" android:background="@drawable/middleside"
+		android:layout_height="95dip" android:layout_width="232dip"
+		android:gravity="center"
+		android:layout_marginRight="74dp"
+		android:layout_marginTop="105dip"
+		android:layout_marginLeft="44dip" >
+	</Button>
+
+	<Button android:id="@+id/alkalinebutton" android:background="@drawable/leftside"
+		 android:layout_width="44dip"
+		 android:layout_height="153dip"
+		 android:gravity="left"
+		 android:layout_marginTop="43dip"></Button>
+	<Button android:layout_height="43dip" android:id="@+id/bottombutton"
+		android:background="@drawable/bottomside" android:layout_x="110dip"
+		android:layout_y="182dip" android:layout_width="444dp"
+		android:layout_marginTop="202dip" android:layout_centerHorizontal="true"></Button>
+
+	<Button android:background="@drawable/rightside"
+		android:layout_width="135dip" android:layout_height="154dip"
+		android:id="@+id/rightbutton" 
+		android:layout_marginLeft="246dp"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="42dip"></Button>
+
+	<AutoCompleteTextView
+	    android:id="@+id/search"
+	    android:layout_width="90dip"
+	    android:layout_height="40dip"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginTop="5dip"
+	    android:layout_toLeftOf="@+id/go"
+	    android:textSize="10sp" >
+
+    </AutoCompleteTextView>
+
+	<Button
+	    android:id="@+id/go"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/search"
+	    android:background="@drawable/card_white"
+	    android:text="Go" />
+
+</RelativeLayout>
+-->
+
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main" android:background="#FFe5e5e5"
+	>
+
+    <AutoCompleteTextView
+	    android:id="@+id/search"
+	    android:layout_width="90dip"
+	    android:layout_height="40dip"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginTop="8dip"
+	    android:layout_toLeftOf="@+id/go"
+	    android:textSize="10sp" 
+        android:layout_marginLeft="16dp">
+    </AutoCompleteTextView>
+
+	<Button
+	    android:id="@+id/go"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:layout_gravity="top"
+	    android:layout_alignParentRight="true"
+	    android:background="@drawable/card_white"
+	    android:layout_marginTop="8dip"
+	    android:text="Go"
+	    android:layout_marginRight="16dp" />
+	
+	
+	<Button
+	    android:id="@+id/transmetbutton"
+	    android:layout_width="232dip"
+	    android:layout_height="95dip"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="16dip"
+	    android:layout_above="@+id/bottombutton"
+	    android:background="@drawable/middleside"
+	    android:layout_marginBottom="50dip" />
+
+	<Button
+	    android:id="@+id/bottombutton"
+	    android:layout_width="444dp"
+	    android:layout_height="43dip"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="24dp"
+	    android:layout_centerHorizontal="true"
+	    android:background="@drawable/bottomside"
+	    android:gravity="bottom" />
+
+	<Button
+	    android:id="@+id/alkalinebutton"
+	    android:layout_width="44dip"
+	    android:layout_height="153dip"
+	    android:layout_alignBottom="@+id/transmetbutton"
+	    android:layout_alignParentLeft="true"
+	    android:background="@drawable/leftside"
+	    android:gravity="left" />
+
+	<Button
+	    android:id="@+id/rightbutton"
+	    android:layout_width="135dip"
+	    android:layout_height="154dip"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignTop="@+id/alkalinebutton"
+	    android:background="@drawable/rightside" />
+    
+</RelativeLayout>
