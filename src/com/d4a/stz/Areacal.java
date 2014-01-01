@@ -3,13 +3,9 @@ package com.d4a.stz;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
-import com.d4a.stz.R;
-import org.apache.cordova.*;
 
 public class Areacal extends  Activity{
 	

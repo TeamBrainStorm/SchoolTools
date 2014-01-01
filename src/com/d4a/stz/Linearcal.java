@@ -1,10 +1,8 @@
 package com.d4a.stz;
 
-import org.apache.cordova.DroidGap;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;

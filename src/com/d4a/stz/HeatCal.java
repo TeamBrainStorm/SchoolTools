@@ -1,6 +1,5 @@
 package com.d4a.stz;
 
-import org.apache.cordova.DroidGap;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -9,7 +8,7 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class HeatCal extends DroidGap{
+public class HeatCal extends Activity{
 
 
 	 WebView webView;

@@ -1,6 +1,5 @@
 package com.d4a.stz;
 
-import org.apache.cordova.DroidGap;
 
 import android.app.Activity;
 import android.os.Bundle;

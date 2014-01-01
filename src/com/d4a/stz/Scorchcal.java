@@ -7,7 +7,6 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import org.apache.cordova.DroidGap;
 
 public class Scorchcal extends Activity {
 
